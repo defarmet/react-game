@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/github.io/react-game/static/js/main.2bfbb71a.chunk.js",
-    "main.js.map": "/github.io/react-game/static/js/main.2bfbb71a.chunk.js.map",
-    "runtime-main.js": "/github.io/react-game/static/js/runtime-main.0192f61a.js",
-    "runtime-main.js.map": "/github.io/react-game/static/js/runtime-main.0192f61a.js.map",
-    "static/js/2.b4b4cc5f.chunk.js": "/github.io/react-game/static/js/2.b4b4cc5f.chunk.js",
-    "static/js/2.b4b4cc5f.chunk.js.map": "/github.io/react-game/static/js/2.b4b4cc5f.chunk.js.map",
-    "index.html": "/github.io/react-game/index.html",
-    "precache-manifest.7fd960421226fd044c18ec9cb1549616.js": "/github.io/react-game/precache-manifest.7fd960421226fd044c18ec9cb1549616.js",
-    "service-worker.js": "/github.io/react-game/service-worker.js",
-    "static/js/2.b4b4cc5f.chunk.js.LICENSE.txt": "/github.io/react-game/static/js/2.b4b4cc5f.chunk.js.LICENSE.txt"
+    "main.js": "/react-game/static/js/main.2bfbb71a.chunk.js",
+    "main.js.map": "/react-game/static/js/main.2bfbb71a.chunk.js.map",
+    "runtime-main.js": "/react-game/static/js/runtime-main.5660c68a.js",
+    "runtime-main.js.map": "/react-game/static/js/runtime-main.5660c68a.js.map",
+    "static/js/2.b4b4cc5f.chunk.js": "/react-game/static/js/2.b4b4cc5f.chunk.js",
+    "static/js/2.b4b4cc5f.chunk.js.map": "/react-game/static/js/2.b4b4cc5f.chunk.js.map",
+    "index.html": "/react-game/index.html",
+    "precache-manifest.c2ef1817bbe34e36a2711a506bbea8d1.js": "/react-game/precache-manifest.c2ef1817bbe34e36a2711a506bbea8d1.js",
+    "service-worker.js": "/react-game/service-worker.js",
+    "static/js/2.b4b4cc5f.chunk.js.LICENSE.txt": "/react-game/static/js/2.b4b4cc5f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0192f61a.js",
+    "static/js/runtime-main.5660c68a.js",
     "static/js/2.b4b4cc5f.chunk.js",
     "static/js/main.2bfbb71a.chunk.js"
   ]
