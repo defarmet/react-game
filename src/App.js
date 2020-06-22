@@ -56,19 +56,33 @@ class App extends Component {
 		});
 	};
 
+	render_images = () =>
+	{
+		const images = this.state.images.map(image =>
+		{
+			return <Image
+			id={image.id}
+			key={image.id}
+			img={image.img}
+			click={this.set_click}
+			/>
+		});
+
+		images.splice(0, 0, <div className="col-1"></div>);
+		images.splice(6, 0, <div className="col-1"></div>);
+		images.splice(7, 0, <div className="col-1"></div>);
+
+		return images;
+	};
+
 	render()
 	{
 		return (
-			<div>
+			<div className="container">
 				<p>{this.state.score} | {this.state.high}</p>
-				{this.state.images.map(image => (
-					<Image
-						id={image.id}
-						key={image.id}
-						image={image.img}
-						click={this.set_click}
-					/>
-				))}
+				<div className="row text-center">
+					{this.render_images()}
+				</div>
 			</div>
 		);
 	};

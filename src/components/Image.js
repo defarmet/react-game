@@ -2,9 +2,15 @@ import React, {Component} from 'react';
 
 class Image extends Component {
 	render() {
+		console.log(this.props);
 		return (
-			<div onClick={() => this.props.click(this.props.id)}>
-				<img alt={this.props.id} src={this.props.img} />
+			<div
+			className="col-2"
+			onClick={() => this.props.click(this.props.id)}>
+				<img
+				className="img-fluid"
+				alt={this.props.id}
+				src={this.props.img} />
 			</div>
 		);
 	}

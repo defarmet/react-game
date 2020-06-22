@@ -1,10 +1,42 @@
 [
 	{
 		"id": 1,
-		"img": "#"
+		"img": "https://cdn.bulbagarden.net/upload/0/0d/025Pikachu.png"
 	},
 	{
 		"id": 2,
-		"img": "#"
+		"img": "https://cdn.bulbagarden.net/upload/3/3e/039Jigglypuff.png"
+	},
+	{
+		"id": 3,
+		"img": "https://cdn.bulbagarden.net/upload/b/b9/172Pichu.png"
+	},
+	{
+		"id": 4,
+		"img": "https://cdn.bulbagarden.net/upload/7/78/150Mewtwo.png"
+	},
+	{
+		"id": 5,
+		"img": "https://cdn.bulbagarden.net/upload/3/39/007Squirtle.png"
+	},
+	{
+		"id": 6,
+		"img": "https://cdn.bulbagarden.net/upload/7/73/002Ivysaur.png"
+	},
+	{
+		"id": 7,
+		"img": "https://cdn.bulbagarden.net/upload/7/7e/006Charizard.png"
+	},
+	{
+		"id": 8,
+		"img": "https://cdn.bulbagarden.net/upload/6/67/658Greninja.png"
+	},
+	{
+		"id": 9,
+		"img": "https://cdn.bulbagarden.net/upload/d/d7/448Lucario.png"
+	},
+	{
+		"id": 10,
+		"img": "https://cdn.bulbagarden.net/upload/2/27/727Incineroar.png"
 	}
 ]
