@@ -56,6 +56,18 @@ class App extends Component {
 		});
 	};
 
+	render_header = () =>
+	{
+		return (
+			<div className="col">
+				<h3>
+				Score: {this.state.score} |
+				High Score: {this.state.high}
+				</h3>
+			</div>
+		);
+	};
+
 	render_images = () =>
 	{
 		const images = this.state.images.map(image =>
@@ -69,7 +81,7 @@ class App extends Component {
 		});
 
 		images.splice(0, 0, <div className="col-1"></div>);
-		images.splice(6, 0, <div className="col-1"></div>);
+		images.splice(6, 0, <div className="w-100"></div>);
 		images.splice(7, 0, <div className="col-1"></div>);
 
 		return images;
@@ -79,8 +91,12 @@ class App extends Component {
 	{
 		return (
 			<div className="container">
-				<p>{this.state.score} | {this.state.high}</p>
+				<br />
 				<div className="row text-center">
+					{this.render_header()}
+				</div>
+				<br />
+				<div className="row text-center no-gutters">
 					{this.render_images()}
 				</div>
 			</div>

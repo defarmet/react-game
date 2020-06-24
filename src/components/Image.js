@@ -5,7 +5,7 @@ class Image extends Component {
 		console.log(this.props);
 		return (
 			<div
-			className="col-2"
+			className="col-2 card card-body"
 			onClick={() => this.props.click(this.props.id)}>
 				<img
 				className="img-fluid"
